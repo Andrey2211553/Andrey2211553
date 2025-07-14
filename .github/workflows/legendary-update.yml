@@ -2,7 +2,7 @@ name: Professional Profile Update
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Run daily at noon for maximum epicness
+    - cron: '0 12 * * *'  # Run daily at noon
   workflow_dispatch:
 
 jobs:
@@ -12,14 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Update Professional Stats
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: 'Update professional stats'
-          MAX_LINES: 5
-          
-      - name: Generate Professional Stats
         uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -44,12 +36,5 @@ jobs:
           SHOW_FOREST_DETAILS: true
           FOREST_TOP_LANG_COUNT: 6
           FOREST_CHART_COLORS: '#8B5CF6,#10B981,#7C3AED,#6366F1,#4ECDC4'
-          FOREST_ICONS_THEME: 'classic'
-          FOREST_ICONS_THEME_COLOR: '#8B5CF6'
-          FOREST_ICONS_THEME_COLOR_2: '#10B981'
-          FOREST_ICONS_THEME_COLOR_3: '#7C3AED'
-          FOREST_ICONS_THEME_COLOR_4: '#6366F1'
-          FOREST_ICONS_THEME_COLOR_5: '#4ECDC4'
-          FOREST_ICONS_THEME_COLOR_6: '#8B5CF6'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 

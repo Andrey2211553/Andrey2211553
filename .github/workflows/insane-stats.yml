@@ -2,7 +2,7 @@ name: Generate Professional Stats
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'  # Run twice daily for maximum professionalism
+    - cron: '0 6,18 * * *'  # Run twice daily
   workflow_dispatch:
 
 jobs:
@@ -36,22 +36,5 @@ jobs:
           SHOW_FOREST_DETAILS: true
           FOREST_TOP_LANG_COUNT: 8
           FOREST_CHART_COLORS: '#8B5CF6,#10B981,#7C3AED,#6366F1,#4ECDC4,#45B7D1,#FF9900,#DC382D'
-          FOREST_ICONS_THEME: 'classic'
-          FOREST_ICONS_THEME_COLOR: '#8B5CF6'
-          FOREST_ICONS_THEME_COLOR_2: '#10B981'
-          FOREST_ICONS_THEME_COLOR_3: '#7C3AED'
-          FOREST_ICONS_THEME_COLOR_4: '#6366F1'
-          FOREST_ICONS_THEME_COLOR_5: '#4ECDC4'
-          FOREST_ICONS_THEME_COLOR_6: '#45B7D1'
-          FOREST_ICONS_THEME_COLOR_7: '#FF9900'
-          FOREST_ICONS_THEME_COLOR_8: '#DC382D'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Update Professional Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: 'Update professional activity'
-          MAX_LINES: 7 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
