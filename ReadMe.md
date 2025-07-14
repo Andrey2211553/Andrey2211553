@@ -299,7 +299,7 @@
 
 <div align="center">
   <!-- Надежная версия: напрямую из output-ветки через raw.githubusercontent -->
-  <img src="https://raw.githubusercontent.com/Andrey2211553/Andrey2211553/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/Andrey2211553/Andrey2211553/gh-pages/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
 <!-- Fallback: старый путь, если вдруг не работает -->
