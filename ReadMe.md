@@ -297,9 +297,21 @@
 
 ## 🐍 Snake Animation
 
-![Snake Animation](https://raw.githubusercontent.com/Andrey2211553/Andrey2211553/output/github-contribution-grid-snake-dark.svg)
+<div align="center">
+  <!-- Надежная версия: напрямую из output-ветки через raw.githubusercontent -->
+  <img src="https://raw.githubusercontent.com/Andrey2211553/Andrey2211553/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</div>
 
-> **💡 Note:** Snake animation will be generated automatically by GitHub Actions. If you don't see it, go to your repository's Actions tab and manually trigger the "Generate Epic Snake Animation" workflow.
+<!-- Fallback: старый путь, если вдруг не работает -->
+<div align="center">
+  <img src="https://github.com/Andrey2211553/Andrey2211553/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation Fallback" />
+</div>
+
+> **💡 Если змейка не отображается:**
+> 1. Перейди на https://github.com/Andrey2211553/Andrey2211553/tree/output и проверь, что там есть файл `github-contribution-grid-snake.svg`.
+> 2. Если файла нет — запусти workflow "Generate Epic Snake Animation" ещё раз.
+> 3. Если всё равно не работает — подожди 5-10 минут (GitHub Pages иногда тупит).
+> 4. Если не помогает — напиши мне, я помогу лично!
 
 ---
 
