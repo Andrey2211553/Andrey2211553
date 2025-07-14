@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm [Твоё имя или ник]</h1>
+<h1 align="center">Hi 👋, I'm Andrey</h1>
 <h3 align="center">Fullstack Developer | TypeScript Enthusiast | Crafting modern web applications</h3>
 
 ---
@@ -31,14 +31,14 @@
 ---
 
 ### 📫 How to reach me:
-[![Telegram Badge](https://img.shields.io/badge/-@YourUsername-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/YourUsername)  
-[![Discord Badge](https://img.shields.io/badge/-YourDiscordTag%230000-5865F2?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/YourDiscordID)
+<!-- [![Telegram Badge](https://img.shields.io/badge/-@YourUsername-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/YourUsername)  
+[![Discord Badge](https://img.shields.io/badge/-YourDiscordTag%230000-5865F2?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/YourDiscordID) -->
 
 ---
 
 ### 📊 GitHub Stats:
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical&hide_rank=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Andrey2211553&show_icons=true&theme=radical&hide_rank=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andrey2211553&layout=compact&theme=radical)
 
 ---
 
