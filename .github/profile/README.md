@@ -59,4 +59,16 @@
 <!--END_SECTION:forest-->
 
 <!--START_SECTION:forest-details-->
-<!--END_SECTION:forest-details--> 
+<!--END_SECTION:forest-details-->
+
+<!--START_SECTION:legendary-stats-->
+<!--END_SECTION:legendary-stats-->
+
+<!--START_SECTION:epic-achievements-->
+<!--END_SECTION:epic-achievements-->
+
+<!--START_SECTION:insane-performance-->
+<!--END_SECTION:insane-performance-->
+
+<!--START_SECTION:revolutionary-code-->
+<!--END_SECTION:revolutionary-code--> 

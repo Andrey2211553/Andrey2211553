@@ -1,0 +1,57 @@
+name: Generate Insane Stats
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *'  # Run twice daily for maximum insanity
+  workflow_dispatch:
+
+jobs:
+  insane-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate Insane GitHub Stats
+        uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_PROFILE_VIEWS: true
+          SHOW_LANGUAGE: true
+          SHOW_OS: true
+          SHOW_EDITORS: true
+          SHOW_LOC_CHART: true
+          SHOW_LINES_OF_CODE: true
+          SHOW_PROJECTS: true
+          SHOW_ACTIVITY_GRAPH: true
+          SHOW_SHORT_INFO: true
+          SHOW_LOC: true
+          SHOW_TIMEZONE: true
+          SHOW_COMMIT: true
+          SHOW_DAYS_OF_WEEK: true
+          SHOW_LANGUAGE_PER_REPO: true
+          SHOW_GITHUB_STATS: true
+          SHOW_DAILY_DEV_TIME: true
+          SHOW_PROFILE_VIEWS: true
+          SHOW_FOREST: true
+          SHOW_FOREST_DETAILS: true
+          FOREST_TOP_LANG_COUNT: 8
+          FOREST_CHART_COLORS: '#FF6B6B,#00D4AA,#FFD700,#6366F1,#4ECDC4,#45B7D1,#FF9900,#DC382D'
+          FOREST_ICONS_THEME: 'classic'
+          FOREST_ICONS_THEME_COLOR: '#FF6B6B'
+          FOREST_ICONS_THEME_COLOR_2: '#00D4AA'
+          FOREST_ICONS_THEME_COLOR_3: '#FFD700'
+          FOREST_ICONS_THEME_COLOR_4: '#6366F1'
+          FOREST_ICONS_THEME_COLOR_5: '#4ECDC4'
+          FOREST_ICONS_THEME_COLOR_6: '#45B7D1'
+          FOREST_ICONS_THEME_COLOR_7: '#FF9900'
+          FOREST_ICONS_THEME_COLOR_8: '#DC382D'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update Legendary Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'Update legendary activity'
+          MAX_LINES: 7 
