@@ -304,7 +304,7 @@
 
 <!-- Fallback: старый путь, если вдруг не работает -->
 <div align="center">
-  <img src="https://github.com/Andrey2211553/Andrey2211553/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation Fallback" />
+  <img src="https://github.com/Andrey2211553/Andrey2211553/blob/gh-pages/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation Fallback" />
 </div>
 
 > **💡 Если змейка не отображается:**
