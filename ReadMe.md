@@ -298,8 +298,11 @@
 ## 🐍 Snake Animation
 
 <div align="center">
-  <img src="https://github.com/Andrey2211553/Andrey2211553/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <!-- Snake animation will appear here after GitHub Actions runs -->
+  <img src="https://raw.githubusercontent.com/Andrey2211553/Andrey2211553/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
+
+> **💡 Note:** Snake animation will be generated automatically by GitHub Actions. If you don't see it, go to your repository's Actions tab and manually trigger the "Generate Epic Snake Animation" workflow.
 
 ---
 
