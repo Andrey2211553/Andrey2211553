@@ -21,9 +21,9 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-contribution-grid-snake-dark.svg
-          snake_color: 'FF6B6B'
+          snake_color: '8B5CF6'
           snake_outline: 'true'
-          snake_outline_color: 'FFD700'
+          snake_outline_color: '7C3AED'
 
       - uses: crazy-max/ghaction-github-pages@v3.0.0
         with:
